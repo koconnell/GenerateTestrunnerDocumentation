@@ -4,7 +4,7 @@ The generate_reports script parses through the testrunner tests and extracts the
 
 The generate_comments script parses through the testrunner tests and extracts all the comments in the test.
 
-### Ruby 1.9.2
+= Ruby 1.9.2
 
 * We recommend using RVM to install Ruby
 
@@ -12,7 +12,7 @@ rvm install ruby-1.9.2-p290
 
 rvm use ruby-1.9.2-p290
 
-### Running Generate Reports Script
+= Running Generate Reports Script
 
 ruby generate_reports_doc.rb ../MyTest.xml for a single test
 
