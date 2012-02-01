@@ -4,6 +4,38 @@ The generate_reports script parses through the testrunner tests and extracts the
 
 The generate_comments script parses through the testrunner tests and extracts all the comments in the test.
 
+### Ruby 1.9.2
+
+* We recommend using RVM to install Ruby
+
+rvm install ruby-1.9.2-p290
+
+rvm use ruby-1.9.2-p290
+
+### Running Generate Reports Script
+
+ruby generate_reports_doc.rb ../MyTest.xml for a single test
+
+or
+
+ruby generate_reports_doc.rb ../*.xml for all tests
+
+or
+
+ruby generate_reports_doc.rb ../another wildcard for specified tests
+
+### Running Generate Comments Script
+
+ruby generate_comments.rb ../MyTest.xml for a single test
+
+or
+
+ruby generate_comments.rb ../*.xml for all tests
+
+or
+
+ruby generate_comments.rb ../another wildcard for specified tests
+
 == Contributing to GenerateTestrunnerDocumentation
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
