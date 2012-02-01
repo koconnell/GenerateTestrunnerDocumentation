@@ -24,7 +24,7 @@ or
 
 ruby generate_reports_doc.rb ../another wildcard for specified tests
 
-### Running Generate Comments Script
+= Running Generate Comments Script
 
 ruby generate_comments.rb ../MyTest.xml for a single test
 
